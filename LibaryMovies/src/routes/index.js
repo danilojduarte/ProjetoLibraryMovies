@@ -3,7 +3,7 @@ import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 
 import Movies from '../pages/movies';
-import StackRoutes from '../routes/StackRoutes';
+import StackRoutes from '../routes/stackRoutes';
 
 const Drawer = createDrawerNavigator();
 

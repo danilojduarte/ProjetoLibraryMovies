@@ -4,7 +4,7 @@ import { StatusBar } from 'react-native';
 
 import { NavigationContainer } from '@react-navigation/native'
 
-import { Routes } from './src/routes';
+import { Routes } from '../LibaryMovies/src/routes';
 
 function App() {
   return(
