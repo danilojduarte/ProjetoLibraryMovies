@@ -1,11 +1,16 @@
+import 'react-native-gesture-handler';
+import React from 'react';
+
+import { NavigationContainer } from '@react-navigation/native';
+
 import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
+
+import Routes from './src/routes';
 
 export default function App() {
   return (
-    <View>
-      <Text>Danilo Duarte</Text>
-      <StatusBar/>
-    </View>
+    <NavigationContainer>
+      <Routes />
+    </NavigationContainer>
   );
 }
